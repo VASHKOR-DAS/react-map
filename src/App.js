@@ -48,9 +48,15 @@ function App() {
       */}
 
       {
-        celebrateObj.map(value => <Person name={value.name} age={value.age}></Person>)
+        celebrateObj.map(value => 
+        <Person
+          name={value.name}
+          age={value.age}
+        >
+        </Person>)
       }
 
+       
       
       </header>
     </div>
